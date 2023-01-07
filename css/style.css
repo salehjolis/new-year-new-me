@@ -40,7 +40,10 @@ height:600px;
     border-radius: 10px;
     background-color: #00A3D8;
     border: none;
-    margin-left: 346px;
+    margin-left: 317px;
+}
+.btn_head i.fa-solid.fa-phone {
+    margin-right: 10px;
 }
 .btn_head a {
     font-size: 20px;
