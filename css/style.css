@@ -135,16 +135,20 @@ height:600px;
     top: -231px;
     margin-left: 200px;
 }
-.text_add button{ 
-        padding: 20px 30px;
-        border-radius: 10px;
-        background-color: #00A3D8;
-        border: none;
+.text_add button {
+    padding: 16px 40px;
+    border-radius: 10px;
+    background-color: #00A3D8;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    font-size: 30px;
 }
 .footer_section{
     display: flex;
     background-color: #151414;
     padding: 100px;
+    color: #fff;
 }
 .footer_left{
     width: 500px;
