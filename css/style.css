@@ -49,3 +49,8 @@ height:600px;
     font-weight: bold;
     color: #ffffff;
 }
+.banner_section{
+    display: flex;
+    width: 1280px;
+
+}
