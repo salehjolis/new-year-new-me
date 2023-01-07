@@ -36,11 +36,11 @@ height:600px;
     margin-bottom: 20px;
 }
 .btn_head {
-    padding: 20px 30px;
+    padding: 16px 20px;
     border-radius: 10px;
     background-color: #00A3D8;
     border: none;
-    margin-left: 327px;
+    margin-left: 346px;
 }
 .btn_head a {
     font-size: 20px;
@@ -78,11 +78,12 @@ height:600px;
     margin-top: 80px;
     margin-bottom: 20px;
 }
-.banner_article p{
+.banner_article p {
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
     margin-bottom: 10px;
+    text-align: justify;
 }
 .banner_article ul li{
     list-style: none;
@@ -132,8 +133,15 @@ height:600px;
 }
 .text_add {
     position: relative;
-    top: -231px;
-    margin-left: 200px;
+    top: 69px;
+    margin-left: -593px;
+    z-index: 999px;
+    text-align: left;
+}
+.text_add h2 {
+    color: white;
+    width: 400px;
+    font-size: 35px;
 }
 .text_add button {
     padding: 16px 40px;
@@ -144,14 +152,64 @@ height:600px;
     color: #fff;
     font-size: 30px;
 }
-.footer_section{
+.map_section {
+    display: flex;
+    justify-content: center;
+}
+.map_section iframe {
+    width: 1140px;
+    height: 300px;
+    margin-bottom: 50px;
+    border-right: 2px solid blue;
+    border-bottom: 2px solid red;
+    border-left: 2px solid green;
+    border-top: 2px solid yellow;
+    border-radius: 10px;
+}
+.footer_section {
     display: flex;
     background-color: #151414;
     padding: 100px;
     color: #fff;
+    padding-bottom: 50px;
 }
-.footer_left{
+.footer_left {
     width: 500px;
-    margin-left: 200px;
-    margin-right: 100px;
+    margin-right: 428px;
+}
+.footer_left h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    padding-bottom: 10px;
+}
+.footer_left p {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.social_ico img {
+    margin-right: 10px;
+    width: 31px;
+    height: auto;
+}
+.footer_right{}
+.footer_right h2 {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 12px;
+}
+.footer_right input {
+    padding: 8px 31px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.footer_right button {
+    padding: 10px 22px;
+    border-radius: 10px;
+    background-color: #00A3D8;
+    border: none;
+    color: #fff;
+    font-size: 21px;
 }
